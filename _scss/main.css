@@ -1,8 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Raleway:wght@100;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
 body {
+  font-size: 100%;
   font-family: "Raleway";
 }
 
-.custonbtn {
+header, .navbar {
+  background-color: #009A2E;
+}
+
+section {
+  display: block;
+}
+
+h3 {
+  color: #1474A3;
+}
+
+h4 {
+  color: #3B9251;
+}
+
+#logo {
+  height: 43px;
+  width: 160px;
+}
+
+.content-card {
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.info-icon {
+  width: 66px;
+  height: 66px;
+  margin-right: 5px;
+}
+
+#section-info {
+  padding: 60px 0;
+  position: relative;
+}
+
+#section-info .section-info-img {
+  position: absolute;
+  right: 0;
+  bottom: -60px;
+}
+
+#page-footer {
+  background-image: url(//cursos.flebrasil.org.br/pluginfile.php/1/theme_middag/middagfooterbackgroundimage/1672081213/background_footer.jpeg);
+  background-size: cover;
+}
+
+.footer-button {
+  background-color: #D9D800;
   border-radius: 1rem;
 }/*# sourceMappingURL=main.css.map */
